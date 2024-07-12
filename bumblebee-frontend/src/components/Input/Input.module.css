@@ -1,0 +1,10 @@
+.label {
+    display: block;
+    text-align: left;
+}
+
+.input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}

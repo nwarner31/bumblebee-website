@@ -1,0 +1,23 @@
+.dark, .light {
+    cursor: pointer;
+    border-radius: 15px;
+    border-width: 0;
+}
+
+.dark {
+    background-color: var(--tertiary-color);
+    color: var(--gray-color);
+}
+.dark:hover {
+    background-color: var(--gray-color);
+    color: var(--tertiary-color);
+}
+
+.light {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
+.light:hover {
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+}

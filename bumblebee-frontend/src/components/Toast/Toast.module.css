@@ -1,0 +1,16 @@
+.toast {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding: 10px 15px;
+}
+
+.success {
+    background-color: #06c93a;
+}
+
+.error {
+    background-color: #f51f1b;
+}

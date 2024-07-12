@@ -1,3 +1,67 @@
+:root {
+  --main-color: #F2F230;
+  --secondary-color: #0A0908;
+  --tertiary-color: #C28B0A;
+  --gray-color: #CED3DC;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.wide-page {
+  max-width: 1200px;
+}
+.narrow-page {
+  width: 400px;
+  margin: auto;
+}
+@media screen and (max-width: 410px) {
+  .narrow-page {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+}
+
+.primary {
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+}
+
+.header {
+  font-family: 'Arial';
+  font-weight: 700;
+}
+
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-item:last-child {
+  border-left: 2px solid black;
+}
+
+.main-body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
 .App {
   text-align: center;
 }

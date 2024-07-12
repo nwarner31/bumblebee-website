@@ -1,0 +1,10 @@
+.body {
+    display: flex;
+    height: 80px;
+}
+
+.title {
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 15px;
+}
